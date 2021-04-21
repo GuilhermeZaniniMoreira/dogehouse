@@ -21,7 +21,9 @@
   "header": {
     "_comment": "Main Header UI Internationalization Strings",
     "title": "DogeHouse",
-    "mutedTitle": "Tắt âm | DogeHouse"
+    "mutedTitle": "Tắt âm | DogeHouse",
+    "dashboard": "Dashboard",
+    "connectionTaken": "Connection Taken"
   },
   "footer": {
     "_comment": "Main Footer UI Internationalization Strings",
@@ -59,7 +61,8 @@
       "featureText_6": "Được bảo kê bởi Doge",
       "loginGithub": "đăng nhập với GitHub",
       "loginTwitter": "đăng nhập với Twitter",
-      "createTestUser": "tạo người dùng thử"
+      "createTestUser": "tạo người dùng thử",
+      "loginDiscord": "Login with Discord"
     },
     "myProfile": {
       "logout": "đăng xuất",
@@ -83,7 +86,7 @@
       "allowAllConfirm": "Bạn có chắc không? Hành động này sẽ cho phép {{count}} người dùng có quyền nói"
     },
     "searchUser": { "search": "tìm kiếm..." },
-    "soundEffectSettings": { "header": "Âm thanh" },
+    "soundEffectSettings": { "header": "Âm thanh", "title": "Sound Settings" },
     "viewUser": {
       "editProfile": "chỉnh sửa hồ sơ",
       "followsYou": "Theo dõi bạn",
@@ -167,7 +170,8 @@
         "roomName": "Tên phòng",
         "roomDescription": "Mô tả phòng",
         "descriptionError": "tối đa 500 ký tự",
-        "nameError": "phải từ 2 đến 60 ký tự"
+        "nameError": "phải từ 2 đến 60 ký tự",
+        "subtitle": "Fill the following fields to start a new room"
       },
       "invitedToJoinRoomModal": {
         "newRoomCreated": "Đã tạo phòng mới",
@@ -198,7 +202,8 @@
         "banFromRoom": "cấm khỏi phòng",
         "goBackToListener": "trở về làm thính giả",
         "deleteMessage": "xóa tin nhắn này",
-        "makeRoomCreator": "cho làm quản trị viên"
+        "makeRoomCreator": "cho làm quản trị viên",
+        "unBanFromChat": "Unban from Chat"
       },
       "roomSettingsModal": {
         "requirePermission": "phải được cấp quyền mới có thể nói",
@@ -206,6 +211,31 @@
         "makePrivate": "chuyển thành phòng riêng tư",
         "renamePublic": "Set public room name",
         "renamePrivate": "Set private room name"
+      }
+    },
+    "followingOnline": {
+      "people": "People",
+      "online": "ONLINE",
+      "noOnline": "You have 0 friends online right now",
+      "showMore": "Show more"
+    },
+    "upcomingRoomsCard": {
+      "upcomingRooms": "Upcoming rooms",
+      "exploreMoreRooms": "Explore More Rooms"
+    },
+    "search": { "placeholder": "Search for rooms, users or categories" },
+    "settingsDropdown": {
+      "profile": "Profile",
+      "language": "Language",
+      "reportABug": "Report A Bug",
+      "useOldVersion": "Use Old Version",
+      "logOut": {
+        "button": "Log out",
+        "modalSubtitle": "Are you sure you want to logout?"
+      },
+      "debugAudio": {
+        "debugAudio": "Debug Audio",
+        "stopDebugger": "Stop Debugger"
       }
     }
   },
@@ -223,6 +253,11 @@
         "roomName": "tên phòng",
         "roomDescription": "Mô tả",
         "minLength": "tối thiểu 2 ký tự"
+      },
+      "tommorow": "TOMMOROW",
+      "today": "TODAY",
+      "deleteModal": {
+        "areYouSure": "Are you sure you want to delete this scheduled room?"
       }
     },
     "roomChat": {
@@ -249,6 +284,7 @@
       "approachingGalaxy": "Đang tiếp cận dải ngân hà",
       "galacticDoge": "Doge đang bay quanh thiên hà",
       "spottedLife": "Đã tìm thấy hành tinh có sự sống"
-    }
+    },
+    "feed": { "yourFeed": "Your Feed" }
   }
 }

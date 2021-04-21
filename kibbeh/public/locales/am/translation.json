@@ -21,7 +21,9 @@
   "header": {
     "_comment": "Main Header UI Internationalization Strings",
     "title": "DogeHouse",
-    "mutedTitle": "ድምፀ-ከል | DogeHouse"
+    "mutedTitle": "ድምፀ-ከል | DogeHouse",
+    "dashboard": "Dashboard",
+    "connectionTaken": "Connection Taken"
   },
   "footer": {
     "_comment": "Main Footer UI Internationalization Strings",
@@ -59,7 +61,8 @@
       "featureText_6": "በ Doge የተጎላበተ",
       "loginGithub": "በ GitHub ግባ",
       "loginTwitter": "በ Twitter ግባ",
-      "createTestUser": "የሙከራ ተጠቃሚ ይፍጠሩ"
+      "createTestUser": "የሙከራ ተጠቃሚ ይፍጠሩ",
+      "loginDiscord": "Login with Discord"
     },
     "myProfile": {
       "logout": "ውጣ",
@@ -83,7 +86,7 @@
       "allowAllConfirm": "Are you sure? This will allow all {{count}} requesting users to speak"
     },
     "searchUser": { "search": "ፈልግ ..." },
-    "soundEffectSettings": { "header": "ድምፆች" },
+    "soundEffectSettings": { "header": "ድምፆች", "title": "Sound Settings" },
     "viewUser": {
       "editProfile": "መገለጫ ቀይር",
       "followsYou": "እርስዎን ይከተላል",
@@ -165,7 +168,8 @@
         "roomName": "የክፍል ስም",
         "roomDescription": "ክፍል መግለጫ",
         "descriptionError": "ከፍተኛ ርዝመት 500",
-        "nameError": "ከ 2 እስክ 60 ፊደላአት ረዝመት ምሆን አለበት"
+        "nameError": "ከ 2 እስክ 60 ፊደላአት ረዝመት ምሆን አለበት",
+        "subtitle": "Fill the following fields to start a new room"
       },
       "invitedToJoinRoomModal": {
         "newRoomCreated": "አዲስ ክፍል ተፈጥሯል",
@@ -196,7 +200,8 @@
         "banFromRoom": "ከ ክፍል ያግዱ",
         "goBackToListener": "አዳማጭ ይመለሱ",
         "deleteMessage": "ይህን መልዕክት ሰርዝ",
-        "makeRoomCreator": "make room admin"
+        "makeRoomCreator": "make room admin",
+        "unBanFromChat": "Unban from Chat"
       },
       "roomSettingsModal": {
         "requirePermission": "መናገር ፈቃድ ይጠይቃል",
@@ -204,6 +209,31 @@
         "makePrivate": "ክፍሉን የግል ያድርጉ",
         "renamePublic": "Set public room name",
         "renamePrivate": "Set private room name"
+      }
+    },
+    "followingOnline": {
+      "people": "People",
+      "online": "ONLINE",
+      "noOnline": "You have 0 friends online right now",
+      "showMore": "Show more"
+    },
+    "upcomingRoomsCard": {
+      "upcomingRooms": "Upcoming rooms",
+      "exploreMoreRooms": "Explore More Rooms"
+    },
+    "search": { "placeholder": "Search for rooms, users or categories" },
+    "settingsDropdown": {
+      "profile": "Profile",
+      "language": "Language",
+      "reportABug": "Report A Bug",
+      "useOldVersion": "Use Old Version",
+      "logOut": {
+        "button": "Log out",
+        "modalSubtitle": "Are you sure you want to logout?"
+      },
+      "debugAudio": {
+        "debugAudio": "Debug Audio",
+        "stopDebugger": "Stop Debugger"
       }
     }
   },
@@ -221,6 +251,11 @@
         "roomName": "የክፍል ስም",
         "minLength": "ደቂቃ ርዝመት 2",
         "roomDescription": "ክፍል መግለጫ"
+      },
+      "tommorow": "TOMMOROW",
+      "today": "TODAY",
+      "deleteModal": {
+        "areYouSure": "Are you sure you want to delete this scheduled room?"
       }
     },
     "roomChat": {
@@ -247,6 +282,7 @@
       "approachingGalaxy": "Approaching galaxy",
       "galacticDoge": "Galactic Doge",
       "spottedLife": "Planet with life spotted"
-    }
+    },
+    "feed": { "yourFeed": "Your Feed" }
   }
 }

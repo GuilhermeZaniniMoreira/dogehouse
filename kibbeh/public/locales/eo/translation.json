@@ -21,7 +21,9 @@
   "header": {
     "_comment": "Main Header UI Internationalization Strings",
     "title": "DogeHouse",
-    "mutedTitle": "Silentigita | DogeHouse"
+    "mutedTitle": "Silentigita | DogeHouse",
+    "dashboard": "Dashboard",
+    "connectionTaken": "Connection Taken"
   },
   "footer": {
     "_comment": "Main Footer UI Internationalization Strings",
@@ -59,7 +61,8 @@
       "featureText_6": "Funkciigita de Doge",
       "loginGithub": "ensaluti per GitHub",
       "loginTwitter": "ensaluti per Twitter",
-      "createTestUser": "krei testuzanton"
+      "createTestUser": "krei testuzanton",
+      "loginDiscord": "Login with Discord"
     },
     "myProfile": {
       "logout": "elsaluti",
@@ -83,7 +86,7 @@
       "allowAllConfirm": "Are you sure? This will allow all {{count}} requesting users to speak"
     },
     "searchUser": { "search": "serĉi..." },
-    "soundEffectSettings": { "header": "Sonoj" },
+    "soundEffectSettings": { "header": "Sonoj", "title": "Sound Settings" },
     "viewUser": {
       "editProfile": "redakti profilon",
       "followsYou": "sekvas vin",
@@ -168,7 +171,8 @@
         "roomName": "ĉambronomo",
         "roomDescription": "ĉambra priskribo",
         "descriptionError": "maksimuma longo 500",
-        "nameError": "devas havi inter 2 kaj 60 signojn"
+        "nameError": "devas havi inter 2 kaj 60 signojn",
+        "subtitle": "Fill the following fields to start a new room"
       },
       "invitedToJoinRoomModal": {
         "newRoomCreated": "Nova Ĉambro Kreita",
@@ -199,7 +203,8 @@
         "banFromRoom": "malpermeso de ĉambro",
         "goBackToListener": "reiru al aŭskultanto",
         "deleteMessage": "forigu ĉi tiun mesaĝon",
-        "makeRoomCreator": "fari ĉambron administranto"
+        "makeRoomCreator": "fari ĉambron administranto",
+        "unBanFromChat": "Unban from Chat"
       },
       "roomSettingsModal": {
         "requirePermission": "postulas permeson paroli",
@@ -207,6 +212,31 @@
         "makePrivate": "privatigi ĉambron",
         "renamePublic": "Set public room name",
         "renamePrivate": "Set private room name"
+      }
+    },
+    "followingOnline": {
+      "people": "People",
+      "online": "ONLINE",
+      "noOnline": "You have 0 friends online right now",
+      "showMore": "Show more"
+    },
+    "upcomingRoomsCard": {
+      "upcomingRooms": "Upcoming rooms",
+      "exploreMoreRooms": "Explore More Rooms"
+    },
+    "search": { "placeholder": "Search for rooms, users or categories" },
+    "settingsDropdown": {
+      "profile": "Profile",
+      "language": "Language",
+      "reportABug": "Report A Bug",
+      "useOldVersion": "Use Old Version",
+      "logOut": {
+        "button": "Log out",
+        "modalSubtitle": "Are you sure you want to logout?"
+      },
+      "debugAudio": {
+        "debugAudio": "Debug Audio",
+        "stopDebugger": "Stop Debugger"
       }
     }
   },
@@ -224,6 +254,11 @@
         "roomName": "ĉambronomo",
         "roomDescription": "Priskribo",
         "minLength": "minimuma longo 2"
+      },
+      "tommorow": "TOMMOROW",
+      "today": "TODAY",
+      "deleteModal": {
+        "areYouSure": "Are you sure you want to delete this scheduled room?"
       }
     },
     "roomChat": {
@@ -250,6 +285,7 @@
       "approachingGalaxy": "Alproksimiĝanta galaksio",
       "galacticDoge": "Galaksia Doge",
       "spottedLife": "Planedo kun vivo ekvidita"
-    }
+    },
+    "feed": { "yourFeed": "Your Feed" }
   }
 }

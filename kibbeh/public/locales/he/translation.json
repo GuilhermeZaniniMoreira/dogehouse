@@ -21,7 +21,9 @@
   "header": {
     "_comment": "Main Header UI Internationalization Strings",
     "title": "DogeHouse",
-    "mutedTitle": "מושתק | DogeHouse"
+    "mutedTitle": "מושתק | DogeHouse",
+    "dashboard": "Dashboard",
+    "connectionTaken": "Connection Taken"
   },
   "footer": {
     "_comment": "Main Footer UI Internationalization Strings",
@@ -59,7 +61,8 @@
       "featureText_6": "מופעל על ידי דוג'",
       "loginGithub": "התחבר באמצעות GitHub",
       "loginTwitter": "התחבר באמצעות Twitter",
-      "createTestUser": "צור משתמש נסיון"
+      "createTestUser": "צור משתמש נסיון",
+      "loginDiscord": "Login with Discord"
     },
     "myProfile": {
       "logout": "התנתק",
@@ -83,7 +86,7 @@
       "allowAllConfirm": "המשתמשים המבקשים רשות יכולת דיבור {{count}} אתה בטוח? זה יאפשר לכל"
     },
     "searchUser": { "search": "חפש..." },
-    "soundEffectSettings": { "header": "צלילים" },
+    "soundEffectSettings": { "header": "צלילים", "title": "Sound Settings" },
     "viewUser": {
       "editProfile": "ערוך פרופיל",
       "followsYou": "עוקב אחריך",
@@ -162,7 +165,8 @@
         "roomName": "שם החדר",
         "roomDescription": "תיאור החדר",
         "descriptionError": "אורך מקסימלי 500",
-        "nameError": "חייב להיות באורך של 2 עד 60 תווים"
+        "nameError": "חייב להיות באורך של 2 עד 60 תווים",
+        "subtitle": "Fill the following fields to start a new room"
       },
       "invitedToJoinRoomModal": {
         "newRoomCreated": "חדר חדש נוצר",
@@ -193,7 +197,8 @@
         "banFromRoom": "הרחק מהחדר",
         "goBackToListener": "חזור למקשיב",
         "deleteMessage": "מחק הודעה זו",
-        "makeRoomCreator": "הפוך למנהל חדר"
+        "makeRoomCreator": "הפוך למנהל חדר",
+        "unBanFromChat": "Unban from Chat"
       },
       "roomSettingsModal": {
         "requirePermission": "דרוש אישור לדבר",
@@ -201,6 +206,31 @@
         "makePrivate": "הפוך חדר לפרטי",
         "renamePublic": "Set public room name",
         "renamePrivate": "Set private room name"
+      }
+    },
+    "followingOnline": {
+      "people": "People",
+      "online": "ONLINE",
+      "noOnline": "You have 0 friends online right now",
+      "showMore": "Show more"
+    },
+    "upcomingRoomsCard": {
+      "upcomingRooms": "Upcoming rooms",
+      "exploreMoreRooms": "Explore More Rooms"
+    },
+    "search": { "placeholder": "Search for rooms, users or categories" },
+    "settingsDropdown": {
+      "profile": "Profile",
+      "language": "Language",
+      "reportABug": "Report A Bug",
+      "useOldVersion": "Use Old Version",
+      "logOut": {
+        "button": "Log out",
+        "modalSubtitle": "Are you sure you want to logout?"
+      },
+      "debugAudio": {
+        "debugAudio": "Debug Audio",
+        "stopDebugger": "Stop Debugger"
       }
     }
   },
@@ -218,6 +248,11 @@
         "roomName": "שם החדר",
         "minLength": "אורך מינימלי 2",
         "roomDescription": "תיאור"
+      },
+      "tommorow": "TOMMOROW",
+      "today": "TODAY",
+      "deleteModal": {
+        "areYouSure": "Are you sure you want to delete this scheduled room?"
       }
     },
     "roomChat": {
@@ -244,6 +279,7 @@
       "approachingGalaxy": "מתקרב לגלקסיה",
       "galacticDoge": "גלקטי Doge",
       "spottedLife": "כוכב לכת עם חיים נמצא"
-    }
+    },
+    "feed": { "yourFeed": "Your Feed" }
   }
 }

@@ -1,13 +1,14 @@
 import { ScheduledRoom } from "@dogehouse/kebab";
 import { useRouter } from "next/router";
+import { validate } from "uuid";
 import React, { useState } from "react";
 import { useQuery, useQueryClient } from "react-query";
-import MiddleHeader from "../../ui/header/MiddleHeader";
 import { InfoText } from "../../ui/InfoText";
 import { DesktopLayout } from "../layouts/DesktopLayout";
 import { MiddlePanel } from "../layouts/GridPanels";
 import { EditScheduleRoomModalController } from "../scheduled-rooms/EditScheduleRoomModalController";
 import { ScheduledRoomCard } from "../scheduled-rooms/ScheduledRoomCard";
+import { HeaderController } from "../display/HeaderController";
 
 interface ViewScheduledRoomPageProps {}
 
@@ -21,22 +22,23 @@ export const ViewScheduledRoomPage: React.FC<ViewScheduledRoomPageProps> = ({}) 
   const key = `/scheduled-room/${id}`;
   const { data, isLoading } = useQuery<
     GetScheduledRoomById | { error: string }
-  >(key);
+  >(key, { enabled: validate(id) });
 
-  if (isLoading) {
+  if (!data || isLoading) {
     return null;
   }
 
-  if (!data || "error" in data || !data.room) {
+  if ("error" in data || !data.room) {
     return (
       <DesktopLayout>
-        <InfoText>could not find room</InfoText>
+        <InfoText>Could not find room</InfoText>
       </DesktopLayout>
     );
   }
 
   return (
     <DesktopLayout>
+      <HeaderController title={data.room.name} embed={{}}/>
       <MiddlePanel>
         {deleted ? (
           <InfoText>deleted</InfoText>

@@ -21,7 +21,9 @@
   "header": {
     "_comment": "Main Header UI Internationalization Strings",
     "title": "DogeHouse",
-    "mutedTitle": "Wyciszono | DogeHouse"
+    "mutedTitle": "Wyciszono | DogeHouse",
+    "dashboard": "Dashboard",
+    "connectionTaken": "Connection Taken"
   },
   "footer": {
     "_comment": "Main Footer UI Internationalization Strings",
@@ -59,7 +61,8 @@
       "featureText_6": "Zasilany przez Doge",
       "loginGithub": "zaloguj się przy użyciu GitHub",
       "loginTwitter": "zaloguj się przy użyciu Twitter",
-      "createTestUser": "stwórz testowe konto"
+      "createTestUser": "stwórz testowe konto",
+      "loginDiscord": "Login with Discord"
     },
     "myProfile": {
       "logout": "wyloguj się",
@@ -68,7 +71,7 @@
       "soundSettings": "przejdź do ustawień dźwięku",
       "deleteAccount": "usuń konto",
       "overlaySettings": "przejdź do ustawień nakładki",
-      "couldNotFindUser": "Sorry, we could not find that user"
+      "couldNotFindUser": "Przepraszamy, nie udało się znaleźć tego użytkownika"
     },
     "notFound": {
       "whoopsError": "Ups! Ta strona zagubiła się w konwersacji.",
@@ -83,7 +86,7 @@
       "allowAllConfirm": "Czy napewno? To dopuści {{count}} użytkowników do mówienia"
     },
     "searchUser": { "search": "szukaj..." },
-    "soundEffectSettings": { "header": "Dźwięki" },
+    "soundEffectSettings": { "header": "Dźwięki", "title": "Sound Settings" },
     "viewUser": {
       "editProfile": "edytuj profil",
       "followsYou": "obserwuje cię",
@@ -126,7 +129,7 @@
       "inviteUsersToRoomBtn": "Zaproś użytkowników do pokoju",
       "invite": "Zaproś",
       "toggleMuteMicBtn": "Przełącz wyciszenie mikrofonów",
-      "mute": "Wyczisz",
+      "mute": "Wycisz",
       "unmute": "Odcisz",
       "makeRoomPublicBtn": "Upublicznij pokój!",
       "settings": "Ustawienia",
@@ -170,7 +173,8 @@
         "roomName": "nazwa pokoju",
         "roomDescription": "opis pokoju",
         "descriptionError": "maksymalna długość to 500",
-        "nameError": "musi być pomiędzy 2 a 60 znakami"
+        "nameError": "musi być pomiędzy 2 a 60 znakami",
+        "subtitle": "Wypełnij te informacje aby utworzyć pokój"
       },
       "invitedToJoinRoomModal": {
         "newRoomCreated": "Stworzono nowy pokój",
@@ -201,7 +205,8 @@
         "banFromRoom": "zbanuj z pokoju",
         "goBackToListener": "powróć do słuchacza",
         "deleteMessage": "usuń tą wiadomość",
-        "makeRoomCreator": "zmień na administratora pokoju"
+        "makeRoomCreator": "zmień na administratora pokoju",
+        "unBanFromChat": "Unban from Chat"
       },
       "roomSettingsModal": {
         "requirePermission": "wymaga pozwolenia na mówienie",
@@ -209,6 +214,31 @@
         "makePrivate": "uczyń pokój prywatnym",
         "renamePublic": "Ustaw publiczną nazwę pokoju",
         "renamePrivate": "Ustaw prywatną nazwę pokoju"
+      }
+    },
+    "followingOnline": {
+      "people": "Użytkownicy",
+      "online": "ONLINE",
+      "noOnline": "Masz 0 dostępnych znajomych",
+      "showMore": "Pokaż więcej"
+    },
+    "upcomingRoomsCard": {
+      "upcomingRooms": "Nadchodzące spotkania w pokojach",
+      "exploreMoreRooms": "Odkrywaj pokoje"
+    },
+    "search": { "placeholder": "Znajdź pokój, użytkowników lub kategorie" },
+    "settingsDropdown": {
+      "profile": "Twój profil",
+      "language": "Język",
+      "reportABug": "Zgłoś błąd",
+      "useOldVersion": "Przejdź na starą wersję",
+      "logOut": {
+        "button": "Log out",
+        "modalSubtitle": "Are you sure you want to logout?"
+      },
+      "debugAudio": {
+        "debugAudio": "Debug Audio",
+        "stopDebugger": "Stop Debugger"
       }
     }
   },
@@ -226,6 +256,11 @@
         "roomName": "nazwa pokoju",
         "minLength": "minimalna długość to 2",
         "roomDescription": "Opis"
+      },
+      "tommorow": "TOMMOROW",
+      "today": "TODAY",
+      "deleteModal": {
+        "areYouSure": "Are you sure you want to delete this scheduled room?"
       }
     },
     "roomChat": {
@@ -238,7 +273,7 @@
       "recent": "Często używane",
       "sendMessage": "Wyślij wiadomość",
       "whisper": "Napisane szpetem",
-      "welcomeMessage": "Witaj w chacie!",
+      "welcomeMessage": "Witaj na chacie!",
       "roomDescription": "opis pokoju"
     },
     "roomStatus": {
@@ -252,6 +287,7 @@
       "approachingGalaxy": "Zbliża się do galaktyki",
       "galacticDoge": "Galaktyczny Doge",
       "spottedLife": "Znaleziono planetę z życiem"
-    }
+    },
+    "feed": { "yourFeed": "Your Feed" }
   }
 }

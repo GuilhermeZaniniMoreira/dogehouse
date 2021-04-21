@@ -20,7 +20,9 @@
   "header": {
     "_comment": "Main Header UI Internationalization Strings",
     "title": "DogeHouse",
-    "mutedTitle": "Némítva | DogeHouse"
+    "mutedTitle": "Némítva | DogeHouse",
+    "dashboard": "Dashboard",
+    "connectionTaken": "Connection Taken"
   },
   "footer": {
     "link_1": "Története",
@@ -57,7 +59,8 @@
       "featureText_6": "Powered by Doge",
       "loginGithub": "bejelentkezés GitHub fiókkal",
       "loginTwitter": "bejelentkezés Twitter fiókkal",
-      "createTestUser": "teszt felhasználó létrehozása"
+      "createTestUser": "teszt felhasználó létrehozása",
+      "loginDiscord": "Login with Discord"
     },
     "myProfile": {
       "logout": "kijelentkezés",
@@ -81,7 +84,7 @@
       "allowAllConfirm": "Biztos benne? Ezzel engedélyezi mind a {{count}} felhasználónak, hogy beszéljen"
     },
     "searchUser": { "search": "keresés..." },
-    "soundEffectSettings": { "header": "Hangok" },
+    "soundEffectSettings": { "header": "Hangok", "title": "Sound Settings" },
     "viewUser": {
       "editProfile": "fiók szerkesztése",
       "followsYou": "követ téged",
@@ -141,7 +144,8 @@
         "roomName": "szoba neve",
         "roomDescription": "szoba leírása",
         "descriptionError": "maximum 500 karakter",
-        "nameError": "minimum 2, maximum 60 karakter"
+        "nameError": "minimum 2, maximum 60 karakter",
+        "subtitle": "Fill the following fields to start a new room"
       },
       "invitedToJoinRoomModal": {
         "newRoomCreated": "Új szoba létrehozva",
@@ -172,7 +176,8 @@
         "banFromRoom": "kitiltás a szobából",
         "goBackToListener": "visszalépés hallgatóvá",
         "deleteMessage": "üzenet törlése",
-        "makeRoomCreator": "adminná tétel"
+        "makeRoomCreator": "adminná tétel",
+        "unBanFromChat": "Unban from Chat"
       },
       "roomSettingsModal": {
         "requirePermission": "beszélői engedélyre van szükség ",
@@ -203,6 +208,31 @@
     "inviteButton": {
       "invited": "meghívott",
       "inviteToRoom": "meghívás szobába"
+    },
+    "followingOnline": {
+      "people": "People",
+      "online": "ONLINE",
+      "noOnline": "You have 0 friends online right now",
+      "showMore": "Show more"
+    },
+    "upcomingRoomsCard": {
+      "upcomingRooms": "Upcoming rooms",
+      "exploreMoreRooms": "Explore More Rooms"
+    },
+    "search": { "placeholder": "Search for rooms, users or categories" },
+    "settingsDropdown": {
+      "profile": "Profile",
+      "language": "Language",
+      "reportABug": "Report A Bug",
+      "useOldVersion": "Use Old Version",
+      "logOut": {
+        "button": "Log out",
+        "modalSubtitle": "Are you sure you want to logout?"
+      },
+      "debugAudio": {
+        "debugAudio": "Debug Audio",
+        "stopDebugger": "Stop Debugger"
+      }
     }
   },
   "modules": {
@@ -218,6 +248,11 @@
         "roomName": "szoba neve",
         "minLength": "legalább 2 karakter hosszú",
         "roomDescription": "Leírás"
+      },
+      "tommorow": "TOMMOROW",
+      "today": "TODAY",
+      "deleteModal": {
+        "areYouSure": "Are you sure you want to delete this scheduled room?"
       }
     },
     "roomChat": {
@@ -244,6 +279,7 @@
       "approachingGalaxy": "Galaxis megközelítése",
       "galacticDoge": "Galaktikus Doge",
       "spottedLife": "Élhető bolygó felfedezve"
-    }
+    },
+    "feed": { "yourFeed": "Your Feed" }
   }
 }

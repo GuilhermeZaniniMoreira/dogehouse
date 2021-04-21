@@ -21,7 +21,9 @@
   "header": {
     "_comment": "Main Header UI Internationalization Strings",
     "title": "DogeHouse",
-    "mutedTitle": "Skaņa izslēgta | DogeHouse"
+    "mutedTitle": "Skaņa izslēgta | DogeHouse",
+    "dashboard": "Dashboard",
+    "connectionTaken": "Connection Taken"
   },
   "footer": {
     "_comment": "Main Footer UI Internationalization Strings",
@@ -59,7 +61,8 @@
       "featureText_6": "Darbojas ar Doge",
       "loginGithub": "Ieiet caur GitHub",
       "loginTwitter": "Ieiet caur Twitter",
-      "createTestUser": "Izveidot izmēģinājuma lietotāju"
+      "createTestUser": "Izveidot izmēģinājuma lietotāju",
+      "loginDiscord": "Login with Discord"
     },
     "myProfile": {
       "logout": "Iziet",
@@ -83,7 +86,7 @@
       "allowAllConfirm": "Are you sure? This will allow all {{count}} requesting users to speak"
     },
     "searchUser": { "search": "meklēšana..." },
-    "soundEffectSettings": { "header": "skaņas" },
+    "soundEffectSettings": { "header": "skaņas", "title": "Sound Settings" },
     "viewUser": {
       "editProfile": "rediģēt profilu",
       "followsYou": "seko jums",
@@ -170,7 +173,8 @@
         "roomName": "istabas nosaukums",
         "roomDescription": "istabas apraksts",
         "descriptionError": "maksimālais garums 500",
-        "nameError": "garumam jābūt no 2 līdz 60 simboliem"
+        "nameError": "garumam jābūt no 2 līdz 60 simboliem",
+        "subtitle": "Fill the following fields to start a new room"
       },
       "invitedToJoinRoomModal": {
         "newRoomCreated": "Izveidota jauna istaba",
@@ -201,7 +205,8 @@
         "banFromRoom": "bloķēt no šis istabas",
         "goBackToListener": "kļūt par klausītāju",
         "deleteMessage": "izdzēst šo ziņu",
-        "makeRoomCreator": "iestatīt par šis istabas administrātoru"
+        "makeRoomCreator": "iestatīt par šis istabas administrātoru",
+        "unBanFromChat": "Unban from Chat"
       },
       "roomSettingsModal": {
         "requirePermission": "pieprasīt runāšanas atļauju",
@@ -209,6 +214,31 @@
         "makePrivate": "padarīt istabu privātu",
         "renamePublic": "Set public room name",
         "renamePrivate": "Set private room name"
+      }
+    },
+    "followingOnline": {
+      "people": "People",
+      "online": "ONLINE",
+      "noOnline": "You have 0 friends online right now",
+      "showMore": "Show more"
+    },
+    "upcomingRoomsCard": {
+      "upcomingRooms": "Upcoming rooms",
+      "exploreMoreRooms": "Explore More Rooms"
+    },
+    "search": { "placeholder": "Search for rooms, users or categories" },
+    "settingsDropdown": {
+      "profile": "Profile",
+      "language": "Language",
+      "reportABug": "Report A Bug",
+      "useOldVersion": "Use Old Version",
+      "logOut": {
+        "button": "Log out",
+        "modalSubtitle": "Are you sure you want to logout?"
+      },
+      "debugAudio": {
+        "debugAudio": "Debug Audio",
+        "stopDebugger": "Stop Debugger"
       }
     }
   },
@@ -226,6 +256,11 @@
         "roomName": "istabas nosaukums",
         "minLength": "minimālais garums 2",
         "roomDescription": "apraksts"
+      },
+      "tommorow": "TOMMOROW",
+      "today": "TODAY",
+      "deleteModal": {
+        "areYouSure": "Are you sure you want to delete this scheduled room?"
       }
     },
     "roomChat": {
@@ -252,6 +287,7 @@
       "approachingGalaxy": "Tuvojas galaktikai",
       "galacticDoge": "Galaktiskais doge",
       "spottedLife": "Pamanīta planēta ar dzīvību radību"
-    }
+    },
+    "feed": { "yourFeed": "Your Feed" }
   }
 }

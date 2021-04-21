@@ -21,7 +21,9 @@
   "header": {
     "_comment": "Main Header UI Internationalization Strings",
     "title": "DogeHouse",
-    "mutedTitle": "Þaggaður | DogeHouse"
+    "mutedTitle": "Þaggaður | DogeHouse",
+    "dashboard": "Dashboard",
+    "connectionTaken": "Connection Taken"
   },
   "footer": {
     "_comment": "Main Footer UI Internationalization Strings",
@@ -59,7 +61,8 @@
       "featureText_6": "Knúið af Doge",
       "loginGithub": "innskráning með GitHub",
       "loginTwitter": "innskráning með Twitter",
-      "createTestUser": "búa til prófanotanda"
+      "createTestUser": "búa til prófanotanda",
+      "loginDiscord": "Login with Discord"
     },
     "myProfile": {
       "logout": "skrá út",
@@ -83,7 +86,7 @@
       "allowAllConfirm": "Are you sure? This will allow all {{count}} requesting users to speak"
     },
     "searchUser": { "search": "leita..." },
-    "soundEffectSettings": { "header": "Hljóðin" },
+    "soundEffectSettings": { "header": "Hljóðin", "title": "Sound Settings" },
     "viewUser": {
       "editProfile": "breyta prófíl",
       "followsYou": "fylgir þér",
@@ -164,7 +167,8 @@
         "roomName": "Rásarheiti",
         "roomDescription": "Rásarlýsing",
         "descriptionError": "hámarks lengd 500",
-        "nameError": "verður að vera á bilinu 2 til 60 stafir"
+        "nameError": "verður að vera á bilinu 2 til 60 stafir",
+        "subtitle": "Fill the following fields to start a new room"
       },
       "invitedToJoinRoomModal": {
         "newRoomCreated": "Nýtt herbergi búið til",
@@ -195,7 +199,8 @@
         "banFromRoom": "banna frá rásinni",
         "goBackToListener": "fara aftur til hlustandans",
         "deleteMessage": "eyða skilaboðum",
-        "makeRoomCreator": "gera að rásarstjórnenda"
+        "makeRoomCreator": "gera að rásarstjórnenda",
+        "unBanFromChat": "Unban from Chat"
       },
       "roomSettingsModal": {
         "requirePermission": "þurfa leyfi til að tala",
@@ -203,6 +208,31 @@
         "makePrivate": "gera að einkarás",
         "renamePublic": "Set public room name",
         "renamePrivate": "Set private room name"
+      }
+    },
+    "followingOnline": {
+      "people": "People",
+      "online": "ONLINE",
+      "noOnline": "You have 0 friends online right now",
+      "showMore": "Show more"
+    },
+    "upcomingRoomsCard": {
+      "upcomingRooms": "Upcoming rooms",
+      "exploreMoreRooms": "Explore More Rooms"
+    },
+    "search": { "placeholder": "Search for rooms, users or categories" },
+    "settingsDropdown": {
+      "profile": "Profile",
+      "language": "Language",
+      "reportABug": "Report A Bug",
+      "useOldVersion": "Use Old Version",
+      "logOut": {
+        "button": "Log out",
+        "modalSubtitle": "Are you sure you want to logout?"
+      },
+      "debugAudio": {
+        "debugAudio": "Debug Audio",
+        "stopDebugger": "Stop Debugger"
       }
     }
   },
@@ -220,6 +250,11 @@
         "roomName": "rásarheiti",
         "minLength": "lágmarkslengd 2",
         "roomDescription": "Description"
+      },
+      "tommorow": "TOMMOROW",
+      "today": "TODAY",
+      "deleteModal": {
+        "areYouSure": "Are you sure you want to delete this scheduled room?"
       }
     },
     "roomChat": {
@@ -246,6 +281,7 @@
       "approachingGalaxy": "Nálgast vetrarbraut",
       "galacticDoge": "Vetrarbrautar Doge",
       "spottedLife": "Pláneta með lífi fundin"
-    }
+    },
+    "feed": { "yourFeed": "Your Feed" }
   }
 }

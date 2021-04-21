@@ -20,7 +20,9 @@
   "header": {
     "_comment": "Main Header UI Internationalization Strings",
     "title": "DogeHouse",
-    "mutedTitle": "Lydløs | DogeHouse"
+    "mutedTitle": "Lydløs | DogeHouse",
+    "dashboard": "Dashboard",
+    "connectionTaken": "Connection Taken"
   },
   "footer": {
     "_comment": "Main Footer UI Internationalization Strings",
@@ -58,7 +60,8 @@
       "featureText_6": "Drevet af Doge",
       "loginGithub": "Log ind med GitHub",
       "loginTwitter": "Log ind med Twitter",
-      "createTestUser": "Lav en test bruger"
+      "createTestUser": "Lav en test bruger",
+      "loginDiscord": "Login with Discord"
     },
     "myProfile": {
       "logout": "Log ud",
@@ -82,7 +85,7 @@
       "allowAllConfirm": "Are you sure? This will allow all {{count}} requesting users to speak"
     },
     "searchUser": { "search": "Søger..." },
-    "soundEffectSettings": { "header": "Lyde" },
+    "soundEffectSettings": { "header": "Lyde", "title": "Sound Settings" },
     "viewUser": {
       "editProfile": "Rediger profil",
       "followsYou": "Følger dig",
@@ -168,7 +171,8 @@
         "roomName": "Rum navn",
         "roomDescription": "Rum beskrivelse",
         "descriptionError": "Max længde 500",
-        "nameError": "Skal være mellem 2 og 60 tegn langt"
+        "nameError": "Skal være mellem 2 og 60 tegn langt",
+        "subtitle": "Fill the following fields to start a new room"
       },
       "invitedToJoinRoomModal": {
         "newRoomCreated": "Nyt rum oprettet",
@@ -199,7 +203,8 @@
         "banFromRoom": "Bandlys fra rummet",
         "goBackToListener": "Gå tilbage til lytter",
         "deleteMessage": "Slet denne besked",
-        "makeRoomCreator": "make room admin"
+        "makeRoomCreator": "make room admin",
+        "unBanFromChat": "Unban from Chat"
       },
       "roomSettingsModal": {
         "requirePermission": "kræv tilladelse for at tale",
@@ -207,6 +212,31 @@
         "makePrivate": "Gør rum privat",
         "renamePublic": "Set public room name",
         "renamePrivate": "Set private room name"
+      }
+    },
+    "followingOnline": {
+      "people": "People",
+      "online": "ONLINE",
+      "noOnline": "You have 0 friends online right now",
+      "showMore": "Show more"
+    },
+    "upcomingRoomsCard": {
+      "upcomingRooms": "Upcoming rooms",
+      "exploreMoreRooms": "Explore More Rooms"
+    },
+    "search": { "placeholder": "Search for rooms, users or categories" },
+    "settingsDropdown": {
+      "profile": "Profile",
+      "language": "Language",
+      "reportABug": "Report A Bug",
+      "useOldVersion": "Use Old Version",
+      "logOut": {
+        "button": "Log out",
+        "modalSubtitle": "Are you sure you want to logout?"
+      },
+      "debugAudio": {
+        "debugAudio": "Debug Audio",
+        "stopDebugger": "Stop Debugger"
       }
     }
   },
@@ -224,6 +254,11 @@
         "roomName": "Rum navn",
         "minLength": "Minimum længde på 2 tegn",
         "roomDescription": "Description"
+      },
+      "tommorow": "TOMMOROW",
+      "today": "TODAY",
+      "deleteModal": {
+        "areYouSure": "Are you sure you want to delete this scheduled room?"
       }
     },
     "roomChat": {
@@ -250,6 +285,7 @@
       "approachingGalaxy": "Approaching galaxy",
       "galacticDoge": "Galactic Doge",
       "spottedLife": "Planet with life spotted"
-    }
+    },
+    "feed": { "yourFeed": "Your Feed" }
   }
 }

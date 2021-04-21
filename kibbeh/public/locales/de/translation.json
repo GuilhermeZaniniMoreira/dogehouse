@@ -21,7 +21,9 @@
   "header": {
     "_comment": "Main Header UI Internationalization Strings",
     "title": "DogeHouse",
-    "mutedTitle": "Stumm | DogeHouse"
+    "mutedTitle": "Stumm | DogeHouse",
+    "dashboard": "Dashboard",
+    "connectionTaken": "Connection Taken"
   },
   "footer": {
     "_comment": "Main Footer UI Internationalization Strings",
@@ -59,7 +61,8 @@
       "featureText_6": "Angetrieben durch Doge",
       "loginGithub": "mit GitHub anmelden",
       "loginTwitter": "mit Twitter anmelden",
-      "createTestUser": "Testnutzer erstellen"
+      "createTestUser": "Testnutzer erstellen",
+      "loginDiscord": "Login with Discord"
     },
     "myProfile": {
       "logout": "Abmelden",
@@ -83,7 +86,7 @@
       "allowAllConfirm": "Bist du sicher? Damit erteilst du {{count}} Benutzern Redeberechtigungen."
     },
     "searchUser": { "search": "Suchen..." },
-    "soundEffectSettings": { "header": "Ton" },
+    "soundEffectSettings": { "header": "Ton", "title": "Sound Settings" },
     "viewUser": {
       "editProfile": "Profil bearbeiten",
       "followsYou": "folgt dir",
@@ -146,7 +149,8 @@
         "roomName": "Raumname",
         "roomDescription": "Raumbeschreibung",
         "descriptionError": "die maximale Länge ist 500",
-        "nameError": "muss zwischen 2 und 60 Zeichen lang sein"
+        "nameError": "muss zwischen 2 und 60 Zeichen lang sein",
+        "subtitle": "Fill the following fields to start a new room"
       },
       "invitedToJoinRoomModal": {
         "newRoomCreated": "Neuen Raum erstellt",
@@ -177,7 +181,8 @@
         "banFromRoom": "Aus Raum ausschließen",
         "goBackToListener": "Zurück zum Zuhörer",
         "deleteMessage": "Nachricht löschen",
-        "makeRoomCreator": "zum Raumadmin befördern"
+        "makeRoomCreator": "zum Raumadmin befördern",
+        "unBanFromChat": "Unban from Chat"
       },
       "roomSettingsModal": {
         "requirePermission": "Berechtigung zum Sprechen verlangen",
@@ -209,6 +214,31 @@
     "inviteButton": {
       "invited": "eingeladen",
       "inviteToRoom": "zum Raum einladen"
+    },
+    "followingOnline": {
+      "people": "People",
+      "online": "ONLINE",
+      "noOnline": "You have 0 friends online right now",
+      "showMore": "Show more"
+    },
+    "upcomingRoomsCard": {
+      "upcomingRooms": "Upcoming rooms",
+      "exploreMoreRooms": "Explore More Rooms"
+    },
+    "search": { "placeholder": "Search for rooms, users or categories" },
+    "settingsDropdown": {
+      "profile": "Profile",
+      "language": "Language",
+      "reportABug": "Report A Bug",
+      "useOldVersion": "Use Old Version",
+      "logOut": {
+        "button": "Log out",
+        "modalSubtitle": "Are you sure you want to logout?"
+      },
+      "debugAudio": {
+        "debugAudio": "Debug Audio",
+        "stopDebugger": "Stop Debugger"
+      }
     }
   },
   "modules": {
@@ -225,6 +255,11 @@
         "roomName": "Name des Raums",
         "minLength": "minimale Länge: 2",
         "roomDescription": "Raumbeschreibung"
+      },
+      "tommorow": "TOMMOROW",
+      "today": "TODAY",
+      "deleteModal": {
+        "areYouSure": "Are you sure you want to delete this scheduled room?"
       }
     },
     "roomChat": {
@@ -251,6 +286,7 @@
       "approachingGalaxy": "Nähert sich einer Galaxie",
       "galacticDoge": "Galactic Doge",
       "spottedLife": "Planet with life spotted"
-    }
+    },
+    "feed": { "yourFeed": "Your Feed" }
   }
 }

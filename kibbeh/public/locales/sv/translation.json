@@ -20,7 +20,9 @@
   "header": {
     "_comment": "Main Header UI Internationalization Strings",
     "title": "DogeHouse",
-    "mutedTitle": "Tystad | DogeHouse"
+    "mutedTitle": "Tystad | DogeHouse",
+    "dashboard": "Dashboard",
+    "connectionTaken": "Connection Taken"
   },
   "footer": {
     "_comment": "Main Footer UI Internationalization Strings",
@@ -58,15 +60,16 @@
       "featureText_6": "Drivs av Doge",
       "loginGithub": "Logga in med GitHub",
       "loginTwitter": "Logga in Twitter",
-      "createTestUser": "Skapa testanvändare"
+      "createTestUser": "Skapa testanvändare",
+      "loginDiscord": "Login with Discord"
     },
     "myProfile": {
       "logout": "Logga ut",
-      "probablyLoading": "Laddar antagligen...",
-      "voiceSettings": "Gå till röstinställningar",
-      "soundSettings": "Gå till ljudinställningar",
+      "probablyLoading": "Laddar...",
+      "voiceSettings": "Röstinställningar",
+      "soundSettings": "Ljudinställningar",
       "deleteAccount": "Radera konto",
-      "overlaySettings": "Gå till overlayinställningar",
+      "overlaySettings": "Overlayinställningar",
       "couldNotFindUser": "Sorry, we could not find that user"
     },
     "notFound": {
@@ -82,7 +85,7 @@
       "allowAllConfirm": "Är du säker på detta sergeant? Detta kommer tillåta {{count}} användare att få tala. Det kan utplåna månen! 🚀☢️"
     },
     "searchUser": { "search": "Sök..." },
-    "soundEffectSettings": { "header": "Ljud" },
+    "soundEffectSettings": { "header": "Ljud", "title": "Sound Settings" },
     "viewUser": {
       "editProfile": "Redigera profil",
       "followsYou": "Följer dig",
@@ -102,7 +105,7 @@
       "volume": "Volym:"
     },
     "overlaySettings": {
-      "header": "Overlay-inställningar",
+      "header": "Overlayinställningar",
       "input": {
         "errorMsg": "Ogiltlig fönstertitel",
         "label": "Ange fönstertitel"
@@ -145,7 +148,8 @@
         "roomName": "Rumsnamn",
         "roomDescription": "Rumsbeskrivning",
         "descriptionError": "Max längden är 500 karaktärer",
-        "nameError": "Längden på namnet måste vara mellan 2 och 60 karaktärer"
+        "nameError": "Längden på namnet måste vara mellan 2 och 60 karaktärer",
+        "subtitle": "Fyll i dessa fält för att skapa ett rum"
       },
       "invitedToJoinRoomModal": {
         "newRoomCreated": "Ett nytt rum har skapats",
@@ -176,7 +180,8 @@
         "banFromRoom": "Bannlys från rum",
         "goBackToListener": "Gå tillbaka till lyssnare",
         "deleteMessage": "Ta bort meddelande",
-        "makeRoomCreator": "Gör till rumsadministratör"
+        "makeRoomCreator": "Gör till rumsadministratör",
+        "unBanFromChat": "Unban from Chat"
       },
       "roomSettingsModal": {
         "requirePermission": "Be om tillåtelse att prata",
@@ -209,6 +214,31 @@
     "wsKilled": {
       "description": "WebSocket anslutningen blev nerstängd av servern. Detta händer oftast när du öppnar hemsidan i en annan flik.",
       "reconnect": "Återanslut"
+    },
+    "followingOnline": {
+      "people": "Personer",
+      "online": "ONLINE",
+      "noOnline": "Du har 0 vänner som är uppkopplade just nu",
+      "showMore": "Visa fler"
+    },
+    "upcomingRoomsCard": {
+      "upcomingRooms": "Kommande rum",
+      "exploreMoreRooms": "Utforska Fler Rum"
+    },
+    "search": { "placeholder": "Sök efter rum, användare eller kategorier" },
+    "settingsDropdown": {
+      "profile": "Profil",
+      "language": "Språk",
+      "reportABug": "Rapportera ett fel",
+      "useOldVersion": "Använd förra verisionen",
+      "logOut": {
+        "button": "Logga ut",
+        "modalSubtitle": "Är du säker på att du vill logga ut?"
+      },
+      "debugAudio": {
+        "debugAudio": "Debug Audio",
+        "stopDebugger": "Stop Debugger"
+      }
     }
   },
   "modules": {
@@ -225,6 +255,11 @@
         "roomName": "Namn",
         "roomDescription": "Beskrivning",
         "minLength": "Lägsta längden: 2"
+      },
+      "tommorow": "TOMMOROW",
+      "today": "TODAY",
+      "deleteModal": {
+        "areYouSure": "Are you sure you want to delete this scheduled room?"
       }
     },
     "roomChat": {
@@ -251,6 +286,7 @@
       "approachingGalaxy": "Närmar sig en galax",
       "galacticDoge": "Galaktiskdoge",
       "spottedLife": "Planet med liv upptäckt"
-    }
+    },
+    "feed": { "yourFeed": "Ditt flöde" }
   }
 }

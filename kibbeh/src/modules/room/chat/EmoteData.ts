@@ -19,7 +19,7 @@ export const customEmojis = [
   },
   {
     name: "intelxamd",
-    short_names: ["intel"],
+    short_names: ["intelxamd"],
     keywords: ["intel", "amd", "intelxamd"],
     imageUrl: "/emotes/IntelxAMD.png",
   },
@@ -1522,7 +1522,14 @@ export const customEmojis = [
   {
     name: "ztthinking",
     short_names: ["ztthinking"],
-    keywords: ["thinking", "think", "anime", "girl", "zerotwo", "zerotwothinking"],
+    keywords: [
+      "thinking",
+      "think",
+      "anime",
+      "girl",
+      "zerotwo",
+      "zerotwothinking",
+    ],
     imageUrl: "/emotes/zerotwothinking.png",
   },
   {

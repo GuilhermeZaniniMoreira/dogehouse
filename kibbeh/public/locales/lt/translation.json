@@ -3,7 +3,7 @@
   "common": {
     "loadMore": "Pakrauti daugiau",
     "loading": "Kraunasi...",
-    "noUsersFound": "Nieko nerasta",
+    "noUsersFound": "Vartotojų nerasta!",
     "ok": "Gerai",
     "yes": "Taip",
     "no": "Ne",
@@ -21,13 +21,15 @@
   "header": {
     "_comment": "Main Header UI Internationalization Strings",
     "title": "DogeHouse",
-    "mutedTitle": "Nutildyta | DogeHouse"
+    "mutedTitle": "Nutildyta | DogeHouse",
+    "dashboard": "Dashboard",
+    "connectionTaken": "Connection Taken"
   },
   "footer": {
     "_comment": "Main Footer UI Internationalization Strings",
     "link_1": "Kilmės istorija",
     "link_2": "Discord",
-    "link_3": "Pranešti"
+    "link_3": "Pranešti apie klaidą"
   },
   "pages": {
     "_comment": "Respective Page UI Internationalization Strings",
@@ -59,7 +61,8 @@
       "featureText_6": "Tvarkomas Doge",
       "loginGithub": "Prisijunkite su GitHub",
       "loginTwitter": "Prisijunkite su Twitter",
-      "createTestUser": "Sukurkite testavimo naudotoją"
+      "createTestUser": "Sukurkite testavimo naudotoją",
+      "loginDiscord": "Login with Discord"
     },
     "myProfile": {
       "logout": "Atsijungti",
@@ -83,7 +86,7 @@
       "allowAllConfirm": "Are you sure? This will allow all {{count}} requesting users to speak"
     },
     "searchUser": { "search": "Ieškoma..." },
-    "soundEffectSettings": { "header": "Garsai" },
+    "soundEffectSettings": { "header": "Garsai", "title": "Sound Settings" },
     "viewUser": {
       "editProfile": "Redaguoti profilį",
       "followsYou": "Seka tave",
@@ -167,7 +170,8 @@
         "roomName": "Kambario pavadinimas",
         "roomDescription": "Kambario aprašymas",
         "descriptionError": "Didžiausias teksto ilgis yra 500 raidžių",
-        "nameError": "Turi būti nuo 2 iki 60 raidžių ilgio"
+        "nameError": "Turi būti nuo 2 iki 60 raidžių ilgio",
+        "subtitle": "Kad pradėtumėte kambarį, užpildykite formą"
       },
       "invitedToJoinRoomModal": {
         "newRoomCreated": "Naujas kambarys sukurtas",
@@ -198,7 +202,8 @@
         "banFromRoom": "Užblokuoti iš kambario",
         "goBackToListener": "Gražinti atgal į klausytojus",
         "deleteMessage": "Ištrinti šią žinutę",
-        "makeRoomCreator": "make room admin"
+        "makeRoomCreator": "make room admin",
+        "unBanFromChat": "Unban from Chat"
       },
       "roomSettingsModal": {
         "requirePermission": "Reikalingas patvirtinimas kalbėti",
@@ -206,6 +211,31 @@
         "makePrivate": "Padaryti kambarį privatų",
         "renamePublic": "Set public room name",
         "renamePrivate": "Set private room name"
+      }
+    },
+    "followingOnline": {
+      "people": "Žmonės",
+      "online": "PRISIJUNGĘ",
+      "noOnline": "Nėra prisijungusių draugų",
+      "showMore": "Rodyti daugiau"
+    },
+    "upcomingRoomsCard": {
+      "upcomingRooms": "Būsimi kambariai",
+      "exploreMoreRooms": "Rodyti daugiau kambarių"
+    },
+    "search": { "placeholder": "Ieškoti kambarių, vartotojų ar kategorijų" },
+    "settingsDropdown": {
+      "profile": "Profilis",
+      "language": "Kalba",
+      "reportABug": "Pranešti apie klaidą",
+      "useOldVersion": "Naudoti seną versiją",
+      "logOut": {
+        "button": "Atsijungti",
+        "modalSubtitle": "Ar tikrai norite atsijungti?"
+      },
+      "debugAudio": {
+        "debugAudio": "Debug Audio",
+        "stopDebugger": "Stop Debugger"
       }
     }
   },
@@ -222,13 +252,18 @@
         "needsFuture": "Turi būti ateityje",
         "roomName": "Kambario pavadinimas",
         "minLength": "Mažiausias ilgis 2",
-        "roomDescription": "Description"
+        "roomDescription": "Kambario aprašymas"
+      },
+      "tommorow": "TOMMOROW",
+      "today": "TODAY",
+      "deleteModal": {
+        "areYouSure": "Are you sure you want to delete this scheduled room?"
       }
     },
     "roomChat": {
       "title": "Pokalbis",
       "emotesSoon": "[emotes soon]",
-      "bannedAlert": "Tu buvo užblokuotas šiame kambaryje -GG",
+      "bannedAlert": "Buvai užblokuotas šiame kambaryje",
       "waitAlert": "Prieš išsiųsdami kitą pranešimą, turite palaukti sekundę",
       "search": "Ieškoti",
       "searchResults": "Paieškos rezultatai",
@@ -249,6 +284,7 @@
       "approachingGalaxy": "Approaching galaxy",
       "galacticDoge": "Galactic Doge",
       "spottedLife": "Planet with life spotted"
-    }
+    },
+    "feed": { "yourFeed": "Your Feed" }
   }
 }
